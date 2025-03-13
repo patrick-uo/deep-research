@@ -1,12 +1,10 @@
-import React from 'react';  
-import { BrowserRouter as Router } from 'react-router-dom';  
+// src/App.js  
+import { BrowserRouter } from 'react-router-dom';  
 
 function App() {  
   return (  
-    <Router>  
-      <div>Deep Research App</div>  
-    </Router>  
+    <BrowserRouter basename={process.env.PUBLIC_URL}>  
+      {/* 应用内容 */}  
+    </BrowserRouter>  
   );  
 }  
-
-export default App;  
