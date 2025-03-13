@@ -1,5 +1,5 @@
 import React from 'react';  
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';  
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'; // 注意这里使用 HashRouter  
 import Header from './components/Header';  
 import Sidebar from './components/Sidebar';  
 import Home from './pages/Home';  
@@ -10,7 +10,7 @@ const { Content } = Layout;
 
 function App() {  
   return (  
-    <Router>  
+    <Router basename={process.env.PUBLIC_URL}>  
       <Layout>  
         <Header />  
         <Layout>  
