@@ -1,27 +1,12 @@
 {  
   "name": "deep-research",  
   "version": "1.0.0",  
-  "homepage": "https://yourusername.github.io/deep-research",   
-  "scripts": {  
-    "predeploy": "npm run build",  
-    "deploy": "gh-pages -d build",  
-    "start": "react-scripts start",  
-    "build": "react-scripts build",  
-    "test": "react-scripts test",  
-    "eject": "react-scripts eject"  
-  },  
-  "keywords": [],  
-  "author": "",  
-  "license": "ISC",  
+  "homepage": "https://your-username.github.io/deep-research",  
   "dependencies": {  
-    "antd": "^4.16.13",  
     "react": "^17.0.2",  
     "react-dom": "^17.0.2",  
-    "react-router-dom": "^5.3.0"  
-  },  
-  "devDependencies": {  
-    "@mui/material": "^5.0.0",  
-    "@emotion/react": "^11.0.0",  
-    "@emotion/styled": "^11.0.0"  
+    "react-router-dom": "^5.3.0",  
+    "antd": "^4.24.15",  
+    "axios": "^1.6.2"  
   }  
-}
+}  
