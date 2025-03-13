@@ -1,9 +1,10 @@
 {  
   "name": "deep-research",  
   "version": "1.0.0",  
-  "description": "A project for Deep Research using React",  
-  "main": "index.js",  
+  "homepage": "https://yourusername.github.io/deep-research",   
   "scripts": {  
+    "predeploy": "npm run build",  
+    "deploy": "gh-pages -d build",  
     "start": "react-scripts start",  
     "build": "react-scripts build",  
     "test": "react-scripts test",  
